@@ -1,6 +1,6 @@
 function imprimir_cabecalho(texto){
     print "=================================="
-    print "           "texto""
+    print "           "texto
     print "=================================="
 }
 BEGIN	{#Begin roda uma única vez
