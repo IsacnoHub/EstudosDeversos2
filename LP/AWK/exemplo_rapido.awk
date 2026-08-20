@@ -48,4 +48,6 @@ END {
 
 #awk '{ print $0 }' texto.txt
 #awk '/Cafe/ { print $0 }' texto.txt
-#awk 'BEGIN {print "--- Início ---"} /Cafe/ {print "Achei o café!"} {print $1} END {print "--- Fim ---"}' texto.txt
+#awk 'BEGIN {print \"--- Início ---\"} /Cafe/ {print \"Achei o cafe!\"} {print $1} END {print \"--- Fim ---\"}' texto.txt
+
+# \" é pra resolver um problema do powershell, no linux vai só: "
