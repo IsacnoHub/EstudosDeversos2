@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "BancoDeEstudos",
+            "database": "${workspaceFolder:EstudosDeversos2}/BD1/movies-imdb.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
