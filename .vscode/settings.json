@@ -3,7 +3,13 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "name": "BancoDeEstudos",
+            "name": "Aeroportos",
+            "database": "${workspaceFolder:EstudosDeversos2}/BD1/airport.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Filmes",
             "database": "${workspaceFolder:EstudosDeversos2}/BD1/movies-imdb.db"
         }
     ],
