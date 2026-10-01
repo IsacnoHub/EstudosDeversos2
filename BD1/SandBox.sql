@@ -1,5 +1,0 @@
-SELECT r.RouteID, r.Origin, r.Destination
-FROM route as r
-JOIN airport as a ON r.Origin = a.AirportID
-WHERE a.AirportCode = 'LHR'
-OR a.AirportCode = 'AMS';
